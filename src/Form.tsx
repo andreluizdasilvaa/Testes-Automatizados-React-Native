@@ -20,14 +20,14 @@ export default function Form() {
 
     return (
         <View style={styles.container}>
-            <TextInput 
+            <TextInput
                 placeholder="Digite seu email"
                 style={styles.input}
                 value={email}
                 onChangeText={(text) => setEmail(text)}
             />
 
-            <TextInput 
+            <TextInput
                 placeholder="Digite sua senha"
                 style={styles.input}
                 value={password}
@@ -35,7 +35,7 @@ export default function Form() {
                 secureTextEntry
             />
 
-            <Button 
+            <Button
                 title="Login"
                 onPress={() => handleLogin(email, password)}
             />
@@ -52,6 +52,9 @@ const styles = StyleSheet.create({
         gap: 8
     },
     input: {
-
+        borderWidth: 1,
+        borderRadius: 12,
+        paddingVertical: 12,
+        paddingHorizontal: 12
     }
 });

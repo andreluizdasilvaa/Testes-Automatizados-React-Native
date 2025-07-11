@@ -6,7 +6,7 @@ import {
     StyleSheet
 } from 'react-native';
 import Title from "./src/Title";
-import Message from "./src/Message";
+import Game from "./src/Game";
 
 export default function App() {
     const [count, setCount] = useState(0);
@@ -32,7 +32,7 @@ export default function App() {
                 </TouchableOpacity>
             </View>
 
-            <Message />
+            <Game />
             
         </View>
     )
