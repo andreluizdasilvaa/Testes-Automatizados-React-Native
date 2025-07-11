@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'row',
         gap: 20
-    },  
+    },
     title: {
         fontSize: 32,
         fontWeight: 'bold'

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1752255794300" clover="3.2.0">
-  <project timestamp="1752255794300" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6" elements="18" coveredelements="18" complexity="0" loc="10" ncloc="10" packages="2" files="3" classes="3"/>
+<coverage generated="1752257958319" clover="3.2.0">
+  <project timestamp="1752257958319" name="All files">
+    <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="6" elements="20" coveredelements="17" complexity="0" loc="11" ncloc="11" packages="2" files="3" classes="3"/>
     <package name="testes-automatizados-rn-main">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="app.tsx" path="C:\Users\man0b\OneDrive\Desktop\MOBILE\EXPO\testes-automatizados-rn-main\testes-automatizados-rn-main\app.tsx">
@@ -14,12 +14,13 @@
       </file>
     </package>
     <package name="testes-automatizados-rn-main.src">
-      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
       <file name="Message.tsx" path="C:\Users\man0b\OneDrive\Desktop\MOBILE\EXPO\testes-automatizados-rn-main\testes-automatizados-rn-main\src\Message.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="5" count="8" type="stmt"/>
-        <line num="7" count="8" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
       </file>
       <file name="Title.tsx" path="C:\Users\man0b\OneDrive\Desktop\MOBILE\EXPO\testes-automatizados-rn-main\testes-automatizados-rn-main\src\Title.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
