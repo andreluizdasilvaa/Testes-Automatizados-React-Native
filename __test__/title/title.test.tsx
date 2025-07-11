@@ -7,7 +7,7 @@ describe("Tests Title component", () => {
         const { getByText } = render(<Title title='André' />)
 
         expect(getByText("André")).toBeTruthy();
-    })
+    });
 
     it("should check style", () => {
         const { getByText } = render(<Title title='André' />)
@@ -21,5 +21,5 @@ describe("Tests Title component", () => {
             color: 'red',
             marginBottom: 20
         });
-    })
-})
+    });
+});

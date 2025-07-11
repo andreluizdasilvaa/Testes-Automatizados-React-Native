@@ -6,6 +6,7 @@ import {
     StyleSheet
 } from 'react-native';
 import Title from "./src/Title";
+import Message from "./src/Message";
 
 export default function App() {
     const [count, setCount] = useState(0);
@@ -30,6 +31,8 @@ export default function App() {
                     <Text style={{ fontSize: 30, color: '#fff' }}>+</Text>
                 </TouchableOpacity>
             </View>
+
+            <Message />
             
         </View>
     )
